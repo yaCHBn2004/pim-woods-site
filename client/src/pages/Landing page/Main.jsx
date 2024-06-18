@@ -1,10 +1,10 @@
 import React from 'react'
-import { Nav, About, Header, Contact, Trends, Footer } from './sections'
+import {About, Header, Contact, Trends} from './sections'
 
 const Main = () => {
     return (
         <div>
-            <Nav />
+            Landing Page
         </div>
 
     )

@@ -8,8 +8,9 @@ import Main from "./pages/Landing page/Main";
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        {/* <Route path={"/"} element={<Main />}/>
+      <Routes> 
+        <Route path={"/"} element={<Main />}/>
+        {/*
         <Route path="/" element={<LandingPage />} />
         <Route path="/contact-us" element={<ContactUsPage />} />
         <Route path="/products" element={<ProductsPage />}>

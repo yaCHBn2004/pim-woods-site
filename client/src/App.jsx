@@ -2,14 +2,14 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-import Home from "./pages/admin/Home";
+import Main from "./pages/Landing page/Main";
 
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={"/"} element={<Home />}/>
+        <Route path={"/"} element={<Main />}/>
       </Routes>
     </BrowserRouter>
   );

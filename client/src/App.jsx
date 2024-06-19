@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Main from "./pages/Landing page/Main";
+import ContactUsPage from "./pages/Contact/Main";
 
 
 const App = () => {
@@ -10,9 +11,10 @@ const App = () => {
     <BrowserRouter>
       <Routes> 
         <Route path={"/"} element={<Main />}/>
+        <Route path="/contact-us" element={<ContactUsPage />} />
         {/*
         <Route path="/" element={<LandingPage />} />
-        <Route path="/contact-us" element={<ContactUsPage />} />
+       
         <Route path="/products" element={<ProductsPage />}>
           <Route path="/" element={<ProductsList />} />
           <Route path=":productId" element={<ProductDetailPage />} />

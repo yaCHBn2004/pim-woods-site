@@ -1,10 +1,11 @@
 import React from 'react'
 import {About, Header, Contact, Trends} from './sections'
+import PageLayout from '../../components/super components/PageLayout'
 
 const Main = () => {
     return (
         <div>
-            Landing Page
+            <PageLayout />
         </div>
 
     )

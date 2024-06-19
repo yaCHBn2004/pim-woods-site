@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export const Header = () => {
   return (
     <div className='header'>
-      <div className=' text-white gap-[1.5rem] py-24 flex flex-col items-center '>
+      <div className=' text-white gap-[1.5rem] pt-32 flex flex-col items-center '>
 
         <h1 className=' text-6xl font-medium w-[50%]'>Timeless Solid Crafts</h1>
         <p className=' text-[0.81rem] w-[38%] font-light pararaph'>Rendez votre maison confortable avec notre gamme exclusive de meubles luxueux conçus pour le confort, l'élégance et l'entretien.</p>

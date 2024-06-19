@@ -1,23 +1,20 @@
 import React from "react";
 import Form from "./Form";
+
 const Main = () => {
   return (
-    <div className="w-screen h-screen flex items-center justify-center">
+    <div className="w-screen min-h-screen flex items-center justify-center">
       <div
-        className="flex-1 flex items-center justify-center bg-cover bg-center"
+        className="flex-1 min-h-screen flex  "
         style={{
-          backgroundImage: `url('./assets/images/contact.jpg')`,
-          height: "100%",
+          backgroundImage: `url('/src/assets/images/contact.jpg')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
         }}
       >
-        <div className="text-left bg-gray-800 bg-opacity-50 p-8 rounded-lg">
-          <h1 className="text-5xl font-bold text-white mb-4">
-          Artisanat Intemporel Solide
-          </h1>
-        </div>
+         <h1 className=' text-6xl pt-44  pl-12 text-bg font-normal w-[70%]'>Timeless Solid <br /> <br /> Crafts</h1>
       </div>
-      <div className="flex-1">
-      
+      <div className="flex-1 min-h-screen flex items-center justify-center">
         <Form />
       </div>
     </div>

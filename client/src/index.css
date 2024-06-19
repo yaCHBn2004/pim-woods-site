@@ -17,9 +17,9 @@
 }
 
 .call-btn {
-  @apply flex gap-3 flex-shrink-0 px-3 py-1.5 border-2 border-white rounded-full;
+  @apply flex text-sm gap-3 flex-shrink-0 px-3 py-1.5 border-2 border-white rounded-full;
 }
 
 .header {
-  @apply relative z-10 top-[4.4rem] h-screen bg-header-pic bg-cover bg-no-repeat text-center
+  @apply relative z-10  h-screen bg-header-pic bg-cover bg-no-repeat text-center
 }

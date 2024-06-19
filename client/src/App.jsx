@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Main from "./pages/Landing page/Main";
 import PageLayout from "./components/super components/PageLayout" 
+import ProductsMain from "./pages/Products/ProductsMain";
 
 
 const App = () => {
@@ -11,6 +12,9 @@ const App = () => {
     <BrowserRouter>
       <Routes> 
         <Route exact path={"/"} element={<PageLayout childPage={<Main/>} />}/>
+        <Route path={"/products"} element={<PageLayout childPage={<ProductsMain />} />}/>
+
+
         {/*
         <Route path="/" element={<LandingPage />} />
         <Route path="/contact-us" element={<ContactUsPage />} />

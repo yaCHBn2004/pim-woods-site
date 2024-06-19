@@ -11,13 +11,13 @@ const Footer = () => {
       <div className='p-14  flex justify-between text-bg'>
         <FootLogo />
 
-        <div className=' flex flex-col gap-5 mx-[3rem] items-start'>
+        <div className=' flex flex-col gap-5 mx-[2rem] items-start'>
           <h3 className='font-medium'>Informations</h3>
           <NavElems />
           <Socials />
         </div>
 
-        <div className=' flex flex-col gap-5  items-start'>
+        <div className=' flex flex-col gap-5 ml-[3rem] items-start'>
           <h3 className='font-medium'>Contacts</h3>
           <Contacts />
         </div>

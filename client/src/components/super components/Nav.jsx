@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <div className='bg-primary p-4 flex w-full justify-between items-center mx-auto text-text-white'>
+    <div className=' fixed z-30 bg-primary p-4 flex w-full justify-between items-center mx-auto text-text-white'>
 
       <div className='flex items-center '>
         <img src={logo} className='relative' alt="" />

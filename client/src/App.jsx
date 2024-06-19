@@ -5,6 +5,7 @@ import "./index.css";
 import Main from "./pages/Landing page/Main";
 import PageLayout from "./components/super components/PageLayout" 
 import ProductsMain from "./pages/Products/ProductsMain";
+import ContactMain from "./pages/Contact/ContactMain";
 
 
 const App = () => {
@@ -13,6 +14,8 @@ const App = () => {
       <Routes> 
         <Route exact path={"/"} element={<PageLayout childPage={<Main/>} />}/>
         <Route path={"/products"} element={<PageLayout childPage={<ProductsMain />} />}/>
+        <Route path={"/contact"} element={<PageLayout childPage={<ContactMain />} />}/>
+
 
 
         {/*

@@ -4,7 +4,10 @@ import {About, Header, Contact, Trends} from './sections'
 const Main = () => {
     return (
         <div>
-            Landing Page
+            <Header/>
+            <About/>
+            <Trends/>
+            <Contact/>
         </div>
 
     )

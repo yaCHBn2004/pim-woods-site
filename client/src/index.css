@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  /*font-family: 'Cormorant Garamond', serif; */
+  font-family: "Sora", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.paragraph {
+  font-family: "Open Sans", sans-serif;
+}
+
+.call-btn {
+  @apply flex gap-3 flex-shrink-0 px-3 py-1.5 border-2 border-white rounded-full;
+}
+
+.header {
+  @apply relative z-10 top-[4.4rem] h-screen bg-header-pic bg-cover bg-no-repeat text-center
+}

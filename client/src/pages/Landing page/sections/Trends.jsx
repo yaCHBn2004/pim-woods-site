@@ -1,7 +1,7 @@
 import React from 'react'
 import DesignGallery from '../../../components/DesignGallery'
 import inarrow from "/src/assets/icons/arrows/in-arrow.svg"
-import GoToFooter from '../../../utils/GoToFooter';
+
 
 export const Trends = () => {
   const scrollToBottom = () => {
@@ -32,7 +32,7 @@ export const Trends = () => {
       </div>
       
       <div className="text-secondary flex align-baseline  gap-2 h-max  hover:ml-4 justify-center">  
-      <GoToFooter />
+      <p className='text-2xl font-bold'>Voir plus</p>
       <img src={inarrow} alt="" />
 
     </div>

@@ -15,7 +15,7 @@ const App = () => {
       <Routes> 
         <Route exact path={"/"} element={<PageLayout childPage={<Main/>} />}/>
         <Route path={"/products"} element={<PageLayout childPage={<ProductsMain />} />}/>
-        <Route path={"/contact"} element={<PageLayout childPage={<ContactMain />} />}/>
+        <Route path={"/contact"} element={<PageLayout childPage={<ContactUsPage />} />}/>
 
 
 

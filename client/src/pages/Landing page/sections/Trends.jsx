@@ -1,7 +1,9 @@
 import React from 'react'
 import DesignGallery from './DesignGallery'
+import inarrow from "/src/assets/icons/arrows/in-arrow.svg"
 
 export const Trends = () => {
+  const Footer = '../../../components/super components/Footer'
   return (
     <div className='h-screen flex flex-col mb-10'>
       <div className=" flex gap-2 pt-24  p-8 h-1/2  ">
@@ -23,8 +25,8 @@ export const Trends = () => {
         <DesignGallery />
       </div>
       
-      <div className="text-secondary flex align-baseline  gap-2 h-max  hover:ml-4 justify-center"> <p className='font-bold cursor-pointer'>Voir Plus</p> 
-             <img className=""src="/src/assets/icons/arrows/in-arrow.svg" alt="" /> 
+      <div className="text-secondary flex align-baseline  gap-2 h-max  hover:ml-4 justify-center">  <a href="#footer" className='font-bold cursor-pointer'>Voir la localisation </a> 
+             <img className=""src={inarrow} alt="" /> 
 
     </div>
     </div>

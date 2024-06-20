@@ -7,7 +7,7 @@ const PageLayout = ({childPage}) => {
   return (
     <div className='min-h-screen flex flex-col bg-bg'>
       <Nav />
-      <div className=''>
+      <div className='flex-grow'>
         {childPage}
       </div>
       <Footer  />

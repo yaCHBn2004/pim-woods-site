@@ -8,7 +8,7 @@ import Map from '../Map'
 const Footer = () => {
   return (
     <div className='bg-darkBrown flex flex-col '>
-      <div className='p-14  flex justify-between text-bg'>
+      <div className=' p-12 md:max-lg:p-6 flex justify-between text-bg'>
         <FootLogo />
 
         <div className=' flex flex-col gap-5 mx-[2rem] items-start'>

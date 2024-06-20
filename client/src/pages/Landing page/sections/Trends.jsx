@@ -1,6 +1,7 @@
 import React from 'react'
 import DesignGallery from './DesignGallery'
 import inarrow from "/src/assets/icons/arrows/in-arrow.svg"
+import BachToFooter from '../../../utils/BackToFooter';
 
 export const Trends = () => {
   const scrollToBottom = () => {
@@ -30,8 +31,9 @@ export const Trends = () => {
         <DesignGallery />
       </div>
       
-      <div className="text-secondary flex align-baseline  gap-2 h-max  hover:ml-4 justify-center">   <a  onClick={scrollToBottom} className="font-bold cursor-pointer">  Voir la localisation</a> 
-             <img className=""src={inarrow} alt="" /> 
+      <div className="text-secondary flex align-baseline  gap-2 h-max  hover:ml-4 justify-center">  
+      <BachToFooter />
+      <img src={inarrow} alt="" />
 
     </div>
     </div>

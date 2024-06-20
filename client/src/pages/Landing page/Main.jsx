@@ -4,7 +4,7 @@ import BackToTopButton from '../../utils/BackToTopButton'
 
 const Main = () => {
     return (
-        <div>
+        <div className='mx-auto'>
             <BackToTopButton/>
             <Header/>
             <About/>

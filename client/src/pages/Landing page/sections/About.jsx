@@ -11,23 +11,22 @@ export const About = () => {
   return (
     <div className="h-max">
       <AboutText />
-
-      <div className="flex flex-col" >
+      <div className="flex flex-col w-full" >
         <div className="bg-cover bg-center w-full h-full" style={{ backgroundImage: `url(${about1})` }}>
           <img src={about1} alt="abous-us1" />
         </div>
 
-        <div className="flex">
-          <img className="w-3/5" src={about2} alt="" />
+        <div className="flex w-full">
+          <img className="w-[45%]" src={about2} alt="" />
 
-          <div className="w-1/3 flex flex-col bg-primary items-center justify-center gap-6 p-10">
-            <img className="" src={shop} alt="" />
+          <div className="w-1/ flex flex-col bg-primary items-center justify-center gap-6 p-10">
+            <img className="w-[35%]" src={shop} alt="" />
             <p className="text-bg ">accéder à l'atelier pimWoods</p>
             <AboutVisit />
           </div>
 
           <div className="w-1/3 flex flex-col bg-secondary items-center justify-center gap-6 p-10">
-            <img src={PimBig} alt="" />
+            <img src={PimBig} alt=" w-[20%]" />
             <p className="text-text-white text-3xl font-semibold ">PimWoods</p>
           </div>
         </div>

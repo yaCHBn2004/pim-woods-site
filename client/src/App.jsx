@@ -6,7 +6,6 @@ import Main from "./pages/Landing page/Main";
 import ContactUsPage from "./pages/Contact/Main";
 import PageLayout from "./components/super components/PageLayout" 
 import ProductsMain from "./pages/Products/ProductsMain";
-import ContactMain from "./pages/Contact/Main";
 
 
 const App = () => {

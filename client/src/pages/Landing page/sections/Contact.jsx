@@ -15,8 +15,8 @@ export const Contact = () => {
       <div className='flex'>
 
         <div className='flex flex-col basis-[70%] p-8 gap-8'>
-          <h1 className=' text-darkBrown text-6xl font-bold'>Contactez-nous!</h1>
-          <p className=' paragraph text-darkBrown leading-7 w-[90%]'>Vous avez des questions ou simplement envie de discuter ? Contactez-nous ! Contactez PimWoods par téléphone, e-mail ou réseaux sociaux, ou passez nous rendre visite dans notre atelier. Votre expérience avec notre mobilier nous importe, et nous sommes là pour la rendre exceptionnelle.</p>
+          <h1 className=' text-darkBrown text-5xl font-bold'>Contactez-nous!</h1>
+          <p className=' paragraph text-sm text-darkBrown leading-7 w-[90%]'>Vous avez des questions ou simplement envie de discuter ? Contactez-nous ! Contactez PimWoods par téléphone, e-mail ou réseaux sociaux, ou passez nous rendre visite dans notre atelier. Votre expérience avec notre mobilier nous importe, et nous sommes là pour la rendre exceptionnelle.</p>
 
           <div className=' mt-8'><Link to="/contact" className=' font-semibold rounded-full text-bg bg-secondary py-2.5 px-5 text-sm cursor-pointer'> Prenez contact  </Link></div>
         </div>

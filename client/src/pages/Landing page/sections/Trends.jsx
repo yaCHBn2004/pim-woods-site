@@ -11,7 +11,7 @@ export const Trends = () => {
     });
   };
   return (
-    <div className='h-screen flex flex-col mb-10'>
+    <div className=' flex flex-col gap-4 mb-10'>
       <div className=" flex gap-2 pt-24  p-8 h-1/2  ">
         <div className="flex flex-col basis-[70%]  ">
           <h1 className=" text-darkBrown text-6xl font-bold pl-16">

@@ -10,8 +10,8 @@ export const Header = () => {
         <h1 className=' text-6xl font-medium w-[50%]'>Timeless Solid </h1>
         <h1 className=' text-6xl font-medium w-[50%]'>Crafts </h1>
         <div>
-        <p className=' text-[0.81rem]  font-light pararaph'>Rendez votre maison confortable avec notre gamme exclusive de meubles</p>
-        <p className=' text-[0.81rem]  font-light pararaph'> luxueux conçus pour le confort, l'élégance et l'entretien.</p>
+        <p className=' text-[0.81rem]  font-light pararaph'>Rendez votre maison confortable avec notre gamme exclusive de</p>
+        <p className=' text-[0.81rem]  font-light pararaph'>meubles luxueux conçus pour le confort, l'élégance et l'entretien.</p>
         </div>
         
 

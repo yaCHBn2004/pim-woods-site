@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Form from "./Form";
 import contactPic from "../../assets/images/contact.jpg";
 const Main = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   return (
     <div className="flex min-h-screen items-center ">
       <div

@@ -20,7 +20,7 @@ const Main = () => {
         <h1 className=' text-6xl m-auto text-bg font-semibold w-[70%] leading-[5rem]'>Timeless Solid Crafts</h1>
       </div>
 
-      <div className=" h-[140vh] basis-[53%] px-[3.5rem] flex items-center justify-center">
+      <div className=" h-[140vh] basis-[53%] flex items-center justify-center">
         <Form />
       </div>
     </div>

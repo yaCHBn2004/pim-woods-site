@@ -28,7 +28,7 @@ const BackToTopButton = () => {
             {showButton && (
                 <button
                     onClick={scrollToTop}
-                    className="fixed bottom-6 right-6 p-3 transition duration-300"
+                    className="fixed bottom-6 right-6 p-3 transition-transform duration-300 ease-in-out transform hover:scale-110"
                 >
                     <img src={arrow} className=' cursor-pointer rotate-180' alt="" />
                 </button>

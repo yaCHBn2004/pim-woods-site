@@ -74,7 +74,7 @@ const ContactForm = () => {
     <div className="flex flex-col">
       <form className="flex flex-col gap-6 " onSubmit={handleSubmit}>
         <Toaster />
-        <h1 className=' text-darkBrown text-5xl font-bold'>Contactez-nous!</h1>
+        <h1 className=' text-darkBrown text-5xl font-bold mb-6'>Contactez-nous!</h1>
         <div className="flex gap-4 ">
           <div className="flex-1 flex flex-col gap-2">
             <label className="text-darkBrown text-sm font-medium " htmlFor="name">Prénom</label>
@@ -141,7 +141,7 @@ const ContactForm = () => {
             value={message}
             onChange={handleChange}
             placeholder="votre message ici..."
-            className="w-full px-3 py-1.5 border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
+            className="w-full h-24 px-3 py-1.5 border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
             required
           ></textarea>
         </div>

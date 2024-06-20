@@ -147,7 +147,7 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className="w-full bg-secondary text-white py-2 px-4 rounded-lg hover:bg-red-200"
+          className="w-full bg-secondary text-white py-2 px-4 rounded-lg hover:shadow-sm hover:shadow-secondary"
         >
           {loading ? "Loading..." : "Envoyer"}
         </button>

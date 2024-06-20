@@ -23,6 +23,7 @@ const Footer = () => {
         </div>
 
         <div><Map /></div>
+
       </div>
 
       <span className=' text-center py-4 border-t border-t-light-text text-sm font-semibold text-light-text paragraph'>

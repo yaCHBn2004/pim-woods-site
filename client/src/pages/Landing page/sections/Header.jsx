@@ -7,8 +7,13 @@ export const Header = () => {
     <div className='header'>
       <div className=' text-white gap-[1.5rem] pt-32 flex flex-col items-center '>
 
-        <h1 className=' text-6xl font-medium w-[50%]'>Timeless Solid Crafts</h1>
-        <p className=' text-[0.81rem] w-[38%] font-light pararaph'>Rendez votre maison confortable avec notre gamme exclusive de meubles luxueux conçus pour le confort, l'élégance et l'entretien.</p>
+        <h1 className=' text-6xl font-medium w-[50%]'>Timeless Solid </h1>
+        <h1 className=' text-6xl font-medium w-[50%]'>Crafts </h1>
+        <div>
+        <p className=' text-[0.81rem]  font-light pararaph'>Rendez votre maison confortable avec notre gamme exclusive de</p>
+        <p className=' text-[0.81rem]  font-light pararaph'>meubles luxueux conçus pour le confort, l'élégance et l'entretien.</p>
+        </div>
+        
 
         <Link to={"/products"} className='call-btn'>
           <span>Découvrez nos produits</span>
@@ -36,8 +41,9 @@ function HeaderAccessory() {
             <h2 className=' font-medium text-4xl'>4.9</h2>
           </div>
 
-          <div className='basis-[50%]'> 
-            <span className='paragraph text-[0.8rem]'>Se concentrant sur la durabilité, la solidité et le confort pour vous aider à créer votre maison de rêve</span>
+          <div className='flex flex-col justify-center basis-[50%]'> 
+            <span className='paragraph text-[0.8rem]'>Se concentrant sur la durabilité, la solidité et le confort pour </span>
+            <span className='paragraph text-[0.8rem]'>vous aider à créer votre maison de rêve </span>
           </div>
 
       </div>

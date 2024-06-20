@@ -17,11 +17,7 @@ const App = () => {
         <Route path={"/products"} element={<PageLayout childPage={<ProductsMain />} />}/>
         <Route path={"/contact"} element={<PageLayout childPage={<ContactUsPage />} />}/>
 
-
-
         {/*
-        <Route path="/" element={<LandingPage />} />
-       
         <Route path="/products" element={<ProductsPage />}>
           <Route path="/" element={<ProductsList />} />
           <Route path=":productId" element={<ProductDetailPage />} />

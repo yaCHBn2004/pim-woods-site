@@ -18,14 +18,15 @@ const Footer = () => {
         </div>
 
         <div className=' flex flex-col gap-5 ml-[3rem] items-start'>
-         <h3 className='font-medium'>Contacts</h3>
+          <h3 className='font-medium'>Contacts</h3>
           <Contacts />
         </div>
 
         <div><Map /></div>
+
       </div>
 
-      <span className=' text-center py-4 border-t  border-t-light-text text-sm font-semibold text-light-text paragraph'>
+      <span className=' text-center py-4 border-t border-t-light-text text-sm font-semibold text-light-text paragraph'>
       © 2024 All Rights Reserved
       </span>
       </div>

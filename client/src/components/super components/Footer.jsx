@@ -26,7 +26,7 @@ const Footer = () => {
 
       </div>
 
-      <span className=' text-center py-4 border-t border-t-light-text text-sm font-semibold text-light-text paragraph'>
+      <span className=' text-center py-4 border-t border-t-light-text text-[0.63rem] font-semibold text-light-text paragraph'>
       © 2024 All Rights Reserved
       </span>
       </div>

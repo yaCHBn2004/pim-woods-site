@@ -3,9 +3,9 @@ import Form from "./Form";
 import contactPic from "../../assets/images/contact.jpg";
 const Main = () => {
   return (
-    <div className="w-screen min-h-screen flex items-center justify-center">
+    <div className="flex min-h-screen items-center ">
       <div
-        className="flex-1 min-h-screen  flex  "
+        className="flex flex-grow h-[140vh] w-full basis-[47%]  "
         style={{
           backgroundImage: `url('${contactPic}')`,
           backgroundSize: 'cover',
@@ -13,9 +13,10 @@ const Main = () => {
           
         }}
       >
-         <h1 className=' text-6xl pb-36 m-auto text-bg font-semibold w-[70%]'>Timeless Solid <br /> <br /> Crafts</h1>
+        <h1 className=' text-6xl m-auto text-bg font-semibold w-[70%] leading-[5rem]'>Timeless Solid Crafts</h1>
       </div>
-      <div className="flex-1 min-h-screen flex items-center justify-center">
+
+      <div className=" h-[140vh] basis-[53%] px-[3.5rem] flex items-center justify-center">
         <Form />
       </div>
     </div>

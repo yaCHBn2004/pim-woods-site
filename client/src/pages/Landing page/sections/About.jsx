@@ -17,17 +17,17 @@ export const About = () => {
         </div>
 
         <div className="flex w-full">
-          <img className="w-[45%]" src={about2} alt="" />
+          <img className="w-[50%]" src={about2} alt="" />
 
-          <div className="w-1/ flex flex-col bg-primary items-center justify-center gap-6 p-10">
-            <img className="w-[35%]" src={shop} alt="" />
-            <p className="text-bg ">accéder à l'atelier pimWoods</p>
+          <div className="w-[25%] flex flex-col bg-primary items-center justify-center gap-6 p-6">
+            <img className="" src={shop} alt="" />
+            <p className="text-bg text-center ">accéder à l'atelier pimWoods</p>
             <AboutVisit />
           </div>
 
-          <div className="w-1/3 flex flex-col bg-secondary items-center justify-center gap-6 p-10">
-            <img src={PimBig} alt=" w-[20%]" />
-            <p className="text-text-white text-3xl font-semibold ">PimWoods</p>
+          <div className="w-[25%] flex flex-col bg-secondary items-center justify-center gap-6 p-10">
+            <img src={PimBig} alt=" " />
+            <p className="text-text-white text-3xl font-semibold tracking-wider ">PimWoods</p>
           </div>
         </div>
       </div>

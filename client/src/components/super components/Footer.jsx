@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
 
         <div className=' flex flex-col gap-5 ml-[3rem] items-start'>
-          <h3 className='font-medium'>Contacts</h3>
+         <h3 className='font-medium'>Contacts</h3>
           <Contacts />
         </div>
 

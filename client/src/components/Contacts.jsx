@@ -17,7 +17,7 @@ const Contacts = () => {
                 </div>
             </span>
 
-            <span className='flex gap-4 items-center text-[0.82rem] w-[80%]'> <img src={mail} alt="" /> <p>contact@pimwoods.com</p> </span>
+            <a  href="mailto:contact@pimwoods.com">    <span className='flex gap-4 items-center text-[0.82rem] w-[80%]'> <img src={mail} alt="" /> <p>contact@pimwoods.com</p> </span></a>
         </>
     )
 }

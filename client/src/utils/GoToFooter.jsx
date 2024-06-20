@@ -1,6 +1,6 @@
 import React from 'react';
 
-function BachToFooter() {
+function GoToFooter() {
   const scrollToBottom = () => {
     window.scrollTo({
       top: document.documentElement.scrollHeight,
@@ -15,4 +15,4 @@ function BachToFooter() {
   );
 }
 
-export default BachToFooter;
+export default GoToFooter;

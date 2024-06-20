@@ -1,5 +1,5 @@
 import React from 'react';
-import { designs } from '../../../designs';
+import { designs } from '../content/designs';
 import DesignCard from './DesingCard';
 
 const DesignGallery = () => {

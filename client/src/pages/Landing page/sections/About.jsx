@@ -4,6 +4,7 @@ import PimBig from "/src/assets/logo-PIM-big.png";
 import about2 from "/src/assets/images/about2.jpg";
 import inarrow from "/src/assets/icons/arrows/in-arrow.svg";
 import shop from "/src/assets/2Ds/shop.png";
+import GoToFooter from '../../../utils/GoToFooter';
 export const About = () => {
   return (
     <div className=" flex flex-col  ">
@@ -40,7 +41,7 @@ export const About = () => {
           <div className="w-1/3 flex flex-col bg-primary items-center justify-center gap-6 p-10">
             <img className="" src={shop} alt="" />
             <p className="text-bg ">accéder à l'atelier pimWoods</p>
-            <div className="text-secondary flex align-baseline  gap-2 cursor-pointer hover:ml-4"> <p>vérifier l'emplacement</p> 
+            <div className="text-secondary flex align-baseline  gap-2 cursor-pointer hover:ml-4"> <GoToFooter/>
              <img className=""src={inarrow} alt="" />
              </div>
              

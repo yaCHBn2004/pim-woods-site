@@ -1,5 +1,5 @@
 import React from 'react';
-import { scrollToBottom } from '../hooks/scrollToBottom';
+import { scrollToBottom } from '../hooks/scrollToFooter';
 
 function GoToFooter() {
   

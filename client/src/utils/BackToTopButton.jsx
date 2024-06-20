@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import arrow from '../assets/icons/arrows/nav-arrow.svg'
+import { scrollToTop } from '../hooks/scrollToTop';
 
 const BackToTopButton = () => {
     const [showButton, setShowButton] = useState(false);
-
     const handleScroll = () => {
         const scrollTop = document.documentElement.scrollTop;
         const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -14,10 +14,6 @@ const BackToTopButton = () => {
         } else {
             setShowButton(false);
         }
-    };
-
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     useEffect(() => {

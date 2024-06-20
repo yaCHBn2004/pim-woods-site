@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown} from '@fortawesome/free-solid-svg-icons';
 
 const ContactForm = () => {
+  
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [familyName, setFamilyName] = useState("");
@@ -70,9 +73,9 @@ const ContactForm = () => {
 
   return (
     <div className="flex flex-col bg-bg h-full w-full">
-      <form className="w-full flex flex-col gap-2 pl-10 pr-10 pt-36 pb-32 " onSubmit={handleSubmit}>
+      <form className="w-full flex flex-col gap-2 pl-10 pr-10 pt-32 pb-32 " onSubmit={handleSubmit}>
       <Toaster />
-        <h2 className="text-3xl font-bold mb-6">Contactez-nous !</h2>
+      <h1 className=' text-darkBrown text-6xl font-bold mb-8'>Contactez-nous!</h1>
         <div className="flex gap-4 mb-2">
           <div className="flex-1">
             <label className="text-darkBrown text-sm font-medium" htmlFor="name">Prénom</label>
@@ -102,17 +105,21 @@ const ContactForm = () => {
           </div>
         </div>
         <div className="mb-4">
-          <label className="block text-darkBrown text-sm font-medium mb-2" htmlFor="inquiryType">Type de demande</label>
-          <select
-            name="inquiryType"
-            id="inquiryType"
-            value={inquiryType}
-            onChange={handleChange}
-            className="w-full px-3 py-2 border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
-          >
-            <option value="Produit">Produit</option>
-          </select>
-        </div>
+  <label className=" text-darkBrown text-sm font-medium mb-2" htmlFor="inquiryType">Type de demande</label>
+  <select
+    name="inquiryType"
+    id="inquiryType"
+    value={inquiryType}
+    onChange={handleChange}
+    className="w-full px-3 py-2 border  border-primary text-placeholderColor rounded-lg bg-transparent placeholder-placeholderColor"
+    
+  >
+    <option value="Produit">Produit</option>
+    <option value="Service">Service</option>
+    <option value="Support">Support</option>
+    
+  </select>
+</div>
         
         <div className="mb-4">
           <label className="block text-darkBrown text-sm font-medium mb-2" htmlFor="email">Adresse e-mail</label>

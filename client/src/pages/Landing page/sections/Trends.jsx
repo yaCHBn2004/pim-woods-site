@@ -5,7 +5,7 @@ import SeeMore from '../../../components/SeeMore'
 
 export const Trends = () => {
   return (
-    <div className='h-max flex flex-col gap-[3.5rem] items-center px-16 my-16'>
+    <div className='h-max flex flex-col gap-[3.5rem] px-16 my-16'>
 
       <div className="flex basis-[100%] ">
         <div className="flex flex-col justify-end basis-[60%]  ">

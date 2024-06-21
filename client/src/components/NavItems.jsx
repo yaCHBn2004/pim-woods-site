@@ -8,13 +8,13 @@ const NavItems = () => {
             <div className="flex mx-auto">
                 <ul className="flex gap-5 justify-around">
                     <li>
-                        <Link to="/" className={`cursor-pointer p-3 ${location.pathname === '/' ? 'text-white font-medium' : ''}`}>Accueil</Link>
+                        <Link to="/" className={`cursor-pointer p-3 ${location.pathname === '/' ? 'text-white font-medium' : ' text-text-white opacity-80'}`}>Accueil</Link>
                     </li>
                     <li>
-                        <Link to="/products" className={`cursor-pointer p-3 ${location.pathname === '/products' ? 'text-white font-medium' : ''}`}>Nos productions</Link>
+                        <Link to="/products" className={`cursor-pointer p-3 ${location.pathname === '/products' ? 'text-white font-medium' : ' text-text-white opacity-80'}`}>Nos productions</Link>
                     </li>
                     <li>
-                        <Link to="/contact" className={`cursor-pointer p-3 ${location.pathname === '/contact' ? 'text-white font-medium' : ''}`}>Contactez-nous</Link>
+                        <Link to="/contact" className={`cursor-pointer p-3 ${location.pathname === '/contact' ? 'text-white font-medium' : ' text-text-white opacity-80'}`}>Contactez-nous</Link>
                     </li>
                 </ul>
             </div>

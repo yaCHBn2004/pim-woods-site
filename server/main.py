@@ -8,6 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
+    "https://pimwoods.vercel.app",
     "http://localhost",
     "http://localhost:3000",
     "http://localhost:5173",  # Add your frontend's origin here

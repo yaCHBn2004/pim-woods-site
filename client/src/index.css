@@ -20,7 +20,7 @@
 }
 
 .call-btn {
-  @apply flex text-sm phone:max-md:text-[0.7rem] gap-3 flex-shrink-0 px-3 py-1.5 phone:max-md:py-1 border-2 border-white rounded-full;
+  @apply flex text-sm phone:max-md:text-[0.7rem] gap-3 flex-shrink-0 px-3 py-1.5 phone:max-md:py-1 border-2 border-white rounded-full transition-transform duration-300 transform hover:translate-x-2;
 }
 
 .header {

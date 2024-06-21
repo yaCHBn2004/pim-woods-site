@@ -1,7 +1,7 @@
 import React from "react";
 import about1 from "/src/assets/images/about1.jpg";
 import about2 from "/src/assets/images/about2.jpg";
-import PimBig from "/src/assets/logo-PIM-big.png";
+import PimBig from "/src/assets/pim-big-white.png";
 import shop from "/src/assets/2Ds/shop.png";
 
 import AboutText from "../../../components/AboutText";
@@ -26,7 +26,7 @@ export const About = () => {
           </div>
 
           <div className="w-[25%] flex flex-col bg-secondary items-center justify-center gap-6 p-10">
-            <img src={PimBig} alt=" " />
+            <img src={PimBig} className="w-1/2 h-1/2" alt=" " />
             <p className="text-text-white text-3xl font-semibold tracking-wider ">PimWoods</p>
           </div>
         </div>

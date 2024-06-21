@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../../assets/logo-pim.png';
+import logo from '../../assets/pim-white.svg';
 import NavItems from '../NavItems';
 import Hamburger from '../../utils/Hamburger';
 import NavElems from '../NavElems';
@@ -50,9 +50,11 @@ const Nav = () => {
   return (
     <>
       <div className={`fixed z-30 p-4 flex w-full justify-between items-center mx-auto text-white transition-all duration-300 ${folded ? 'bg-primary h-12' : 'bg-primary h-16'}`}>
-        <Link to={'/'} className='flex items-center p-1'>
-          <img src={logo} className='relative h-8' alt="Logo" />
-          <span className={`font-semibold text-lg absolute left-20 transition-all duration-300 ${folded ? 'text-base' : 'text-lg'}`}>PimWoods</span>
+        <Link to={'/'} className='block'>
+        <div className='flex items-center gap-1'>
+          <img src={logo} className='relative h-14' alt="Logo" />
+          <span className={`font-semibold text-lg absolute left-14 transition-all duration-300 ${folded ? 'text-base' : 'text-lg'}`}>PimWoods</span>
+        </div>
         </Link>
 
         {isMobile ? (

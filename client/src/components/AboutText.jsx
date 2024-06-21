@@ -12,7 +12,7 @@ const AboutText = () => {
 
             <div className=" basis-[45%] flex flex-col gap-[3rem] font-bold text-darkBrown">
                 <p>
-                    Nous sommes une entreprise située à Alger en Algérie, spécialisée dans le domaine du bois.
+                    Nous sommes une entreprise située à Alger en Algérie, spécialisée dans le domaine du        bois.
                 </p>
                 <p>
                     Nous offrons une gamme variée de produits en bois, y compris des meubles, des articles  de décoration, et des matériaux de construction.

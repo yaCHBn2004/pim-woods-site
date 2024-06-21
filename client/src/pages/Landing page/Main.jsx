@@ -12,9 +12,9 @@ const Main = () => {
         <div className='mx-auto'>
             <BackToTopButton />
             <Header />
-            {/* <About />
+            <About />
             <Trends />
-            <Contact /> */}
+            <Contact />
         </div>
 
     )

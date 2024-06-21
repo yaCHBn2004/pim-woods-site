@@ -1,0 +1,14 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 50%;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.header-accessory {
+  animation: slideInFromLeft .7s ease-out forwards;
+}

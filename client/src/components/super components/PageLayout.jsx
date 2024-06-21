@@ -10,7 +10,7 @@ const PageLayout = ({childPage}) => {
       <div className='flex-grow'>
         {childPage}
       </div>
-      <Footer  />
+      {/* <Footer  /> */}
     </div>
   )
 }

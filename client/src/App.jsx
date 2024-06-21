@@ -2,6 +2,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
+import "./styles/Header.css"
 import Main from "./pages/Landing page/Main";
 import ContactUsPage from "./pages/Contact/Main";
 import PageLayout from "./components/super components/PageLayout" 

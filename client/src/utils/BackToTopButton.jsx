@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from 'react';
-import arrow from '../assets/icons/arrows/nav-arrow.svg'
+import arrow from '../assets/icons/arrows/nav-arrow.svg';
 import { scrollToTop } from '../hooks/scrollToTop';
-
 const BackToTopButton = () => {
-    const [showButton, setShowButton] = useState(false);
+    const [opacity, setOpacity] = useState(0);
+    
     const handleScroll = () => {
         const scrollTop = document.documentElement.scrollTop;
         const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
         const scrollPercent = (scrollTop / windowHeight) * 100;
 
         if (scrollPercent > 70) {
-            setShowButton(true);
+            setOpacity(1);
+        } else if (scrollPercent > 50) {
+            setOpacity((scrollPercent - 50) / 20);
         } else {
-            setShowButton(false);
+            setOpacity(0);
         }
     };
 
@@ -23,17 +25,15 @@ const BackToTopButton = () => {
         };
     }, []);
 
+
     return (
-        <>
-            {showButton && (
-                <button
-                    onClick={scrollToTop}
-                    className="fixed bottom-6 right-6 p-3 transition-transform duration-300 ease-in-out transform hover:scale-110"
-                >
-                    <img src={arrow} className=' cursor-pointer rotate-180' alt="" />
-                </button>
-            )}
-        </>
+        <button
+            onClick={scrollToTop}
+            className="fixed bottom-6 right-6 p-3 transition-transform duration-300 ease-in-out transform hover:scale-110"
+            style={{ opacity }}
+        >
+            <img src={arrow} className=' cursor-pointer rotate-180' alt="Back to top arrow" />
+        </button>
     );
 };
 

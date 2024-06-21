@@ -5,11 +5,10 @@ import { Link } from 'react-router-dom'
 export const Header = () => {
   return (
     <div className='header'>
-      <div className=' text-white gap-[1.5rem] phone:max-md:gap-[1.2rem] pt-32 phone:max-lg:pt-24 flex flex-col items-center '>
-        <h1 className=' text-6xl phone:max-md:text-4xl phone:max-md:w-[65%] font-medium w-[50%]'>Timeless Solid Crafts </h1>
-        <div className=" flex flex-col items-center text-center px-4 phone:max-md:w-[65%] md:w-[40%]">
-          <p className=' text-[0.81rem] phone:max-md:text-[0.7rem] font-light pararaph'>Rendez votre maison confortable avec notre gamme exclusive de meubles luxueux conçus pour le confort, l'élégance et l'entretien.</p>
-          <p className=' text-[0.81rem] phone:max-md:text-[0.7rem] font-light pararaph'></p>
+      <div className=' text-white md:gap-[1.5rem] phone:max-md:gap-[1.2rem] md:pt-32 phone:max-lg:pt-24 flex flex-col items-center '>
+        <h1 className=' text-6xl phone:max-md:text-4xl phone:max-md:w-[65%] font-medium md:w-[50%] xl:w-[40%]'>Timeless Solid Crafts </h1>
+        <div className=" flex flex-col items-center text-center px-4 phone:max-md:w-[65%] md:w-[40%] xl:w-[38.4%]">
+          <p className=' text-[0.81rem] xl:text-sm phone:max-md:text-[0.7rem] font-light pararaph'>Rendez votre maison confortable avec notre gamme exclusive de meubles luxueux conçus pour le confort, l'élégance et l'entretien.</p>
         </div>
 
 

@@ -38,7 +38,7 @@ const ContactForm = () => {
         message: message
       };
       const response = await axios.post(
-        "https://pim-woods-site.onrender.com/submit_form_submit_form__post",
+        "https://pim-woods-site.onrender.com/submit-form/",
         formData
       );
       console.log("Form submitted successfully:", response.data);

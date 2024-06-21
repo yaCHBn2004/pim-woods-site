@@ -110,7 +110,7 @@ const ContactForm = () => {
             id="inquiryType"
             value={inquiryType}
             onChange={handleChange}
-            className="w-full px-3 py-[0.3rem] border border-primary text-placeholderColor rounded-lg bg-transparent placeholder-placeholderColor"
+            className="w-full px-3 py-[0.3rem] border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
 
           >
             <option value="Produit">Produit</option>

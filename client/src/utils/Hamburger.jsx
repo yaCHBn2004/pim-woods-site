@@ -1,6 +1,5 @@
 function Hamburger({ onClick, isOpen = true }) {
     return (
-        // show a circle grey on hover, make it small then grow it
         <button className="flex flex-col gap-1" onClick={onClick}>
             <div
                 className={

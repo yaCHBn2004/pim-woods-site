@@ -9,7 +9,7 @@ export const designs = [
     id: 1,
     title: "Salle à manger",
     image: high1 ,
-    designer: "Hadj Bakli",
+    designer: "Bakli",
   },
   {
     id: 2,

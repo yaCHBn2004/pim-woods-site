@@ -23,7 +23,6 @@ export const Contact = () => {
           </div>
         </div>
         <div className=' bg-cover w-[50%] h-full' style={{ backgroundImage: `url(${img})` }}></div>
-        {/* <img className=' basis-[30%]' src={img} alt="" /> */}
       </div>
     </div>
   )

@@ -71,10 +71,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex flex-col">
-      <form className="flex flex-col gap-6 " onSubmit={handleSubmit}>
+    <div className="  flex flex-col absolute top-24">
+      <form className="flex flex-col gap-4 " onSubmit={handleSubmit}>
         <Toaster />
-        <h1 className=' text-darkBrown text-5xl font-bold mb-6'>Contactez-nous!</h1>
+        <h1 className=' text-darkBrown text-5xl font-bold '>Contactez-nous!</h1>
         <div className="flex gap-4 ">
           <div className="flex-1 flex flex-col gap-2">
             <label className="text-darkBrown text-sm font-medium " htmlFor="name">Prénom</label>
@@ -85,7 +85,7 @@ const ContactForm = () => {
               placeholder="Jane"
               value={name}
               onChange={handleChange}
-              className="w-full px-3 py-1.5 border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
+              className="w-full px-3 py-[0.3rem] border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
               required
             />
           </div>
@@ -98,7 +98,7 @@ const ContactForm = () => {
               id="familyName"
               value={familyName}
               onChange={handleChange}
-              className="w-full px-3 py-1.5 border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
+              className="w-full px-3 py-[0.3rem] border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
               required
             />
           </div>
@@ -110,7 +110,7 @@ const ContactForm = () => {
             id="inquiryType"
             value={inquiryType}
             onChange={handleChange}
-            className="w-full px-3 py-1.5 border border-primary text-placeholderColor rounded-lg bg-transparent placeholder-placeholderColor"
+            className="w-full px-3 py-[0.3rem] border border-primary text-placeholderColor rounded-lg bg-transparent placeholder-placeholderColor"
 
           >
             <option value="Produit">Produit</option>
@@ -129,7 +129,7 @@ const ContactForm = () => {
             value={email}
             placeholder="email@janesfakedomain.com"
             onChange={handleChange}
-            className="w-full px-3 py-1.5 border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
+            className="w-full px-3 py-[0.3rem] border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
             required
           />
         </div>
@@ -141,7 +141,7 @@ const ContactForm = () => {
             value={message}
             onChange={handleChange}
             placeholder="votre message ici..."
-            className="w-full h-24 px-3 py-1.5 border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
+            className="w-full h-24 px-3 py-[0.3rem] border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
             required
           ></textarea>
         </div>

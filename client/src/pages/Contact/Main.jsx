@@ -19,7 +19,7 @@ const Main = () => {
           
         }}
       >
-        <h1 className='absolute top-40 left-10 text-5xl text-bg font-semibold leading-[5rem] w-[30%] '>Timeless Solid Crafts</h1>
+        <h1 className='absolute top-36 left-10 text-5xl text-bg font-semibold leading-[5rem] w-[30%] '>Timeless Solid Crafts</h1>
       </div>
 
       <div className=" h-[100vh] basis-[50%] w-full flex items-center justify-center ">

@@ -12,10 +12,10 @@ const AboutText = () => {
 
             <div className=" basis-[45%] flex flex-col gap-[3rem] font-bold text-darkBrown">
                 <p>
-                    Welcome to PimWoods,Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nous sommes une entreprise située à Alger en Algérie, spécialisée dans le domaine du bois.
                 </p>
                 <p>
-                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                    Nous offrons une gamme variée de produits en bois, y compris des meubles, des articles  de décoration, et des matériaux de construction.
                 </p>
             </div>
         </div>

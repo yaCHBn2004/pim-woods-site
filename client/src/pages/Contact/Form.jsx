@@ -71,10 +71,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="  flex flex-col absolute top-24">
-      <form className="flex flex-col gap-4 " onSubmit={handleSubmit}>
+    <div className="flex flex-col absolute top-24 ">
+      <form className="flex flex-col gap-4  " onSubmit={handleSubmit}>
         <Toaster />
-        <h1 className=' text-darkBrown text-5xl font-bold '>Contactez-nous!</h1>
+        <h1 className=' text-darkBrown text-5xl font-bold  '>Contactez-nous!</h1>
         <div className="flex gap-4 ">
           <div className="flex-1 flex flex-col gap-2">
             <label className="text-darkBrown text-sm font-medium " htmlFor="name">Prénom</label>
@@ -110,7 +110,7 @@ const ContactForm = () => {
             id="inquiryType"
             value={inquiryType}
             onChange={handleChange}
-            className="w-full px-3 py-[0.3rem] border border-primary text-placeholderColor rounded-lg bg-transparent placeholder-placeholderColor"
+            className="w-full px-3 py-[0.3rem] border border-primary rounded-lg bg-transparent placeholder-placeholderColor"
 
           >
             <option value="Produit">Produit</option>

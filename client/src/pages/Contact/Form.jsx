@@ -71,8 +71,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="  flex flex-col absolute top-24">
-      <form className="flex flex-col gap-4 " onSubmit={handleSubmit}>
+    <div className="  flex flex-col absolute top-40 ">
+      <form className="flex flex-col  min-w-max gap-4 " onSubmit={handleSubmit}>
         <Toaster />
         <h1 className=' text-darkBrown text-5xl font-bold '>Contactez-nous!</h1>
         <div className="flex gap-4 ">
@@ -149,7 +149,7 @@ const ContactForm = () => {
           type="submit"
           className="w-full bg-secondary text-white py-1.5 px-4 rounded-lg hover:shadow-sm hover:shadow-secondary"
         >
-          {loading ? "Loading..." : "Envoyer"}
+          {loading ? "Patienter un peu ..." : "Envoyer"}
         </button>
       </form>
     </div>

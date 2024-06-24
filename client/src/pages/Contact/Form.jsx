@@ -71,7 +71,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="  flex flex-col absolute top-36 w-1/2 px-10 m-auto   ">
+    <div className="  flex flex-col absolute top-40 w-1/2 px-10 m-auto   ">
       <form className="flex flex-col  gap-6  " onSubmit={handleSubmit}>
         <Toaster />
         <h1 className=' text-darkBrown text-5xl font-bold '>Contactez-nous!</h1>

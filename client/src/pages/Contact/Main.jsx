@@ -1,15 +1,17 @@
 import React, { useEffect } from "react";
 import Form from "./Form";
 import contactPic from "../../assets/images/contact.jpg";
+
 const Main = () => {
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
 
   return (
-    <div className="flex min-h-screen items-center ">
+    <div className="flex h-screen relative items-center ">
       <div
-        className="flex flex-grow h-[140vh] w-full basis-[47%]  "
+        className="flex flex-grow h-[100vh] w-full basis-[47%]  "
         style={{
           backgroundImage: `url('${contactPic}')`,
           backgroundSize: 'cover',
@@ -17,10 +19,10 @@ const Main = () => {
           
         }}
       >
-        <h1 className=' text-6xl m-auto text-bg font-semibold w-[70%] leading-[5rem]'>Timeless Solid Crafts</h1>
+        <h1 className='absolute top-40 left-10 text-5xl text-bg font-semibold leading-[5rem] w-[30%] '>Timeless Solid Crafts</h1>
       </div>
 
-      <div className=" h-[140vh] basis-[53%] px-[3.5rem] flex items-center justify-center">
+      <div className=" h-[100vh] basis-[50%] w-full flex items-center justify-center ">
         <Form />
       </div>
     </div>

@@ -9,7 +9,7 @@ const Socials = () => {
             <span>Social Media</span>
             <div className='flex gap-8'>
                 <a href=""><img src={fb} alt="" /></a>
-                <a href=""><img src={x} alt="" />  </a>              
+                <a href=""><img src={x} alt="" /></a>              
                 <a href=""><img src={Linkedin} alt="" /></a>
             </div>
         </div>

@@ -4,7 +4,7 @@ import DesignCard from './DesingCard';
 
 const DesignGallery = () => {
   return (
-    <div className="flex gap-[2rem] ">
+    <div className="flex w-full justify-between">
       {designs.map(design => (
         <div key={design.id}> 
           <DesignCard 

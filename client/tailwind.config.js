@@ -16,6 +16,12 @@ module.exports = {
         "light-text": "#514537",
         "light-text-2": "#F1F1F0"
       },
+      screens: {
+        tablet: "640px",
+        // => @media (min-width: 690px) { ... }
+        phone: "320px",
+        // => @media (min-width: 690px) { ... }
+      },
     },
   },
   plugins: [],

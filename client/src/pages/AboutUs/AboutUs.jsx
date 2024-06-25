@@ -1,5 +1,12 @@
+import { useEffect } from "react";
 import "./../../styles/AboutUs.css";
+
+
 const AboutUs = () => {
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, []);
+
     return (
         <div className="AboutUs">
             <h1>hello from about us </h1>

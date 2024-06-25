@@ -24,7 +24,7 @@ const App = () => {
           element={<PageLayout childPage={<ContactUsPage />} />}
         />
         <Route
-          path={"/aboutUs"}
+          path={"/aboutus"}
           element={<PageLayout childPage={<AboutUs />} />}
         />
 

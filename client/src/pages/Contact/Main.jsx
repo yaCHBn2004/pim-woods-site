@@ -16,7 +16,7 @@ const Main = () => {
           backgroundImage: `url('${contactPic}')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          
+
         }}
       >
         <h1 className='absolute top-24 left-10 text-5xl text-bg font-semibold leading-[5rem] w-[30%] '>Timeless Solid Crafts</h1>

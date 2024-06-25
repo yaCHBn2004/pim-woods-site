@@ -7,12 +7,12 @@ import Main from "./pages/Landing page/Main";
 import ContactUsPage from "./pages/Contact/Main";
 import PageLayout from "./components/super components/PageLayout";
 import ProductsMain from "./pages/Products/ProductsMain";
-import AboutUs from "./pages/AboutUs/AboutAs";
+import AboutUs from "./pages/AboutUs/AboutUs";
 
 const App = () => {
   return (
     <BrowserRouter>
-      
+
       <Routes>
         <Route exact path={"/"} element={<PageLayout childPage={<Main />} />} />
         <Route

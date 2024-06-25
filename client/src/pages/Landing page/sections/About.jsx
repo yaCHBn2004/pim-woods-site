@@ -1,6 +1,6 @@
 import React from "react";
-import about1 from "/src/assets/images/about1.jpg";
-import about2 from "/src/assets/images/about2.jpg";
+import about1 from "/src/assets/images/about/about1.jpg";
+import about2 from "/src/assets/images/about/about2.jpg";
 import PimBig from "/src/assets/pim-big-white.png";
 import shop from "/src/assets/2Ds/shop.png";
 

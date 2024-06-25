@@ -82,7 +82,7 @@
   display: flex;
 }
 .Mission .Up .left {
-  background-image: url(.\..\assets\images\aboutUs-mission.png);
+  background-image: url(./../assets/images/about/aboutUs-mission.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: #110d0a;
@@ -132,7 +132,7 @@
 }
 
 .Valeur .right {
-  background-image: url(./..\assets\images\aboutUs-valeur.png);
+  background-image: url(./../assets/images/about/aboutUs-valeur.png);
   background-size: cover;
   height: 420px;
   flex: 7;

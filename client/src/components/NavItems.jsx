@@ -11,6 +11,9 @@ const NavItems = () => {
                         <Link to="/" className={`cursor-pointer p-3 ${location.pathname === '/' ? 'text-white font-medium' : ' text-text-white opacity-80'}`}>Accueil</Link>
                     </li>
                     <li>
+                        <Link to="/aboutus" className={`cursor-pointer p-3 ${location.pathname === '/aboutus' ? 'text-white font-medium' : ' text-text-white opacity-80'}`}>A propos</Link>
+                    </li>
+                    <li>
                         <Link to="/products" className={`cursor-pointer p-3 ${location.pathname === '/products' ? 'text-white font-medium' : ' text-text-white opacity-80'}`}>Nos productions</Link>
                     </li>
                     <li>

@@ -1,0 +1,174 @@
+/* header section  */
+
+.AboutUs {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Header {
+  height: 350px;
+  width: 100%;
+  background-image: url(".\..\assets\images\aboutUs2.jpg");
+  background-position-y: center;
+  background-size: cover;
+  padding-top: 50px;
+}
+.Header h1 {
+  font-size: 50px;
+  padding: 20px;
+  background-color: #7e7e7e;
+  color: white;
+  display: inline;
+  font-weight: 600;
+}
+
+/* history section  */
+
+.Histoir {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 100px;
+}
+
+.Histoir .left {
+  display: flex;
+  flex-direction: column;
+  flex: 1.1;
+  gap: 20px;
+}
+
+.Histoir h1 {
+  font-size: 77px;
+  max-width: 576px;
+  font-weight: 800;
+}
+
+.Histoir h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.Histoir h3 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.Histoir P {
+  font-size: 20px;
+  font-family: 500;
+}
+
+.Histoir .right {
+  flex: 1;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Histoir span {
+  color: #8f503e;
+}
+
+/* mission section  */
+
+.Mission {
+  background-color: #7e7e7e;
+}
+
+.Mission .Up {
+  background-color: #342b2b;
+  display: flex;
+}
+.Mission .Up .left {
+  background-image: url(.\..\assets\images\aboutUs-mission.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #110d0a;
+  height: 236px;
+  flex: 3;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-around;
+}
+.Mission .Up .left h1 {
+  max-width: 700px;
+  font-weight: 700;
+}
+
+.Mission .Up span {
+  color: white;
+}
+.Mission .Up p {
+  background-color: #3a2216;
+  color: #dedcdb;
+  flex: 2;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+  padding: 10px 100px;
+}
+.Mission .down {
+  background-color: #8f503e;
+  color: white;
+  height: 222px;
+  display: flex;
+  text-align: center;
+  padding: 10px 150px;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* nos valeur section  */
+
+.Valeur {
+  display: flex;
+}
+
+.Valeur .right {
+  background-image: url(./..\assets\images\aboutUs-valeur.png);
+  background-size: cover;
+  height: 420px;
+  flex: 7;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.Valeur .left {
+  color: #110d0a;
+  opacity: 70%;
+  flex: 3;
+  font-size: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 100px;
+}
+.Valeur .right * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  padding: 20px;
+  opacity: 40%;
+  text-align: center;
+}
+#Qualite {
+  background-color: #5c6168;
+}
+#Innovation {
+  background-color: #110d0a;
+}
+#Durabilite {
+  background-color: #3a2216;
+}
+#client {
+  background-color: #8f503e;
+}

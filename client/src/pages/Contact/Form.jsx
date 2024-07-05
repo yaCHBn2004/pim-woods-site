@@ -72,9 +72,9 @@ const ContactForm = () => {
 
   return (
     <div className="flex flex-col absolute top-24 ">
-      <form className="flex flex-col gap-4  " onSubmit={handleSubmit}>
+      <form className="flex flex-col gap-4 phone:max-md:text-sm phone:max-md:px-4  " onSubmit={handleSubmit}>
         <Toaster />
-        <h1 className=' text-darkBrown text-5xl font-bold  '>Contactez-nous!</h1>
+        <h1 className=' text-darkBrown text-5xl font-bold phone:max-md:text-4xl  '>Contactez-nous!</h1>
         <div className="flex gap-4 ">
           <div className="flex-1 flex flex-col gap-2">
             <label className="text-darkBrown text-sm font-medium " htmlFor="name">Prénom</label>

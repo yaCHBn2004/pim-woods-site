@@ -7,7 +7,7 @@ export const Trends = () => {
   return (
     <div className='h-max flex flex-col gap-[3.5rem] px-16 my-16'>
 
-      <div className="flex basis-[100%] ">
+      <div className="flex phone:max-md:flex-col phone:max-md:space-y-6 basis-[100%] ">
         <div className="flex flex-col justify-end basis-[50%]  ">
           <h1 className=" text-darkBrown text-6xl font-bold w-[90%]">
             Artisant  tendance

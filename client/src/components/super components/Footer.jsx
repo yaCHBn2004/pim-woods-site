@@ -22,7 +22,7 @@ const Footer = () => {
           <Contacts />
         </div>
 
-        <div>
+        <div className=' phone:max-md:place-self-center'>
           <Map />
         </div>
 

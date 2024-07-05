@@ -8,10 +8,13 @@ import ContactUsPage from "./pages/Contact/Main";
 import PageLayout from "./components/super components/PageLayout";
 import ProductsMain from "./pages/Products/ProductsMain";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import BackToTopButton from './utils/BackToTopButton'
+
 
 const App = () => {
   return (
     <BrowserRouter>
+      <BackToTopButton />
 
       <Routes>
         <Route exact path={"/"} element={<PageLayout childPage={<Main />} />} />

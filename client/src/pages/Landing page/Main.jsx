@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import { About, Header, Contact, Trends } from './sections'
-import BackToTopButton from '../../utils/BackToTopButton'
 
 const Main = () => {
     useEffect(() => {
@@ -9,7 +8,6 @@ const Main = () => {
     
     return (
         <div className='mx-auto'>
-            <BackToTopButton />
             <Header />
             <About />
             <Trends />

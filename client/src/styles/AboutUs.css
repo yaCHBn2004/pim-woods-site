@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: row;
   gap: 40px;
-  padding: 100px;
+  padding: 80px 65px;
 }
 
 .Histoir .left {
@@ -40,13 +40,13 @@
 }
 
 .Histoir h1 {
-  font-size: 77px;
+  font-size: 70px;
   max-width: 576px;
   font-weight: 800;
 }
 
 .Histoir h2 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
 }
 
@@ -55,7 +55,7 @@
   font-weight: 600;
 }
 
-.Histoir P {
+.Histoir p {
   font-size: 20px;
   font-family: 500;
 }
@@ -65,7 +65,7 @@
   display: flex;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 .Histoir span {
   color: #8f503e;
@@ -93,6 +93,7 @@
   align-items: center;
   gap: 30px;
   justify-content: space-around;
+  padding-left: 26px;
 }
 .Mission .Up .left h1 {
   max-width: 700px;
@@ -121,11 +122,11 @@
   text-align: center;
   padding: 10px 150px;
   align-items: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
 }
 
-/* nos valeur section  */
+/* nos valeurs section  */
 
 .Valeur {
   display: flex;
@@ -144,11 +145,12 @@
   color: #110d0a;
   opacity: 70%;
   flex: 3;
-  font-size: 100px;
+  font-size: 60px;
+  font-weight: 500;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-left: 100px;
+  padding: 20px;
 }
 .Valeur .right * {
   display: flex;

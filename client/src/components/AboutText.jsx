@@ -3,9 +3,9 @@ import inarrow from '../assets/icons/arrows/in-arrow.svg'
 import { Link } from 'react-router-dom'
 const AboutText = () => {
     return (
-        <div className=" flex items-end gap-6 mt-20 mb-6 px-12 py-8">
+        <div className=" flex phone:max-md:flex-col md:items-end gap-6 phone:max-md:space-y-6 mt-20 mb-6 px-12 py-8">
             <div className="basis-[50%]">
-                <h1 className=" text-darkBrown text-7xl md:max-lg:text-6xl font-bold flex flex-col gap-6">
+                <h1 className=" text-darkBrown text-7xl phone:max-md:text-5xl md:max-lg:text-6xl font-bold flex flex-col gap-6">
                     <p>À propos </p>
                     <p>de PimWoods</p>
                 </h1>

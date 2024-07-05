@@ -16,18 +16,18 @@ export const About = () => {
           <img src={about1} alt="abous-us1" />
         </div>
 
-        <div className="flex w-full">
-          <img className="w-[50%]" src={about2} alt="" />
+        <div className="flex w-full ">
+          <img className="w-[50%] phone:max-md:w-0" src={about2} alt="" />
 
-          <div className="w-[25%] flex flex-col bg-primary items-center justify-center gap-6 p-6">
+          <div className="w-[25%] phone:max-md:w-1/2 flex flex-col bg-primary items-center justify-center gap-6 phone:max-md:gap-2 p-6 phone:max-md:text-sm">
             <img className="" src={shop} alt="" />
             <p className="text-bg text-center ">accéder à l'atelier pimWoods</p>
             <AboutVisit />
           </div>
 
-          <div className="w-[25%] flex flex-col bg-secondary items-center justify-center gap-6 p-10">
+          <div className="w-[25%] phone:max-md:w-1/2 flex flex-col bg-secondary items-center justify-center gap-6 p-10 phone:max-md:p-5">
             <img src={PimBig} className="w-1/2 h-1/2" alt=" " />
-            <p className="text-text-white text-3xl font-semibold tracking-wider ">PimWoods</p>
+            <p className="text-text-white text-3xl phone:max-md:text-base font-semibold tracking-wide ">PimWoods</p>
           </div>
         </div>
       </div>

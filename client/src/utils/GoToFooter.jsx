@@ -5,7 +5,7 @@ function GoToFooter() {
   
 
   return (
-    <button onClick={scrollToBottom} className="font-bold cursor-pointer">
+    <button onClick={scrollToBottom} className="font-bold cursor-pointer phone:max-md:text-xs">
       Voir la localisation
     </button>
   );

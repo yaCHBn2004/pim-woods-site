@@ -19,9 +19,9 @@ export const About = () => {
         <div className="flex w-full ">
           <img className="w-[50%] phone:max-md:w-0" src={about2} alt="" />
 
-          <div className="w-[25%] phone:max-md:w-1/2 flex flex-col bg-primary items-center justify-center gap-6 phone:max-md:gap-2 p-6 phone:max-md:text-sm">
+          <div className="w-[25%] phone:max-md:w-1/2 flex flex-col bg-primary items-center justify-center gap-6 phone:max-md:gap-2 p-6 phone:max-md:text-xs">
             <img className="" src={shop} alt="" />
-            <p className="text-bg text-center ">accéder à l'atelier pimWoods</p>
+            <p className="text-bg text-center ">accéder à l'atelier PimWoods</p>
             <AboutVisit />
           </div>
 

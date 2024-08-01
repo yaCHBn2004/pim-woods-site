@@ -4,7 +4,7 @@ import ProductCard from './ProductCard'
 
 const Products = () => {
   return (
-    <div>
+    <div className='flex flex-wrap gap-4 p-4'>
        {woodenFurniture.map(item => <ProductCard item={item}/>)}
     </div>
   )

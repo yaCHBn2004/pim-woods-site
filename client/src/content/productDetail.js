@@ -1,30 +1,34 @@
+import img1 from '../assets/images/products/product-ex-1.jpg' ; 
+import img2 from '../assets/images/products/product-ex-2.jpg' ; 
+import img3 from '../assets/images/products/product-ex-3.jpg' ; 
+import img4 from '../assets/images/products/large-prod.jpg'   ; 
 export const woodenFurniture = [
     {
-        title: 'Oak Dining Table',
-        description: 'A sturdy and elegant dining table made from high-quality oak wood. Perfect for family meals and gatherings.',
+        title: 'Dining Table',
+        description: 'A sturdy and elegant dining table made from high-quality oak wood.',
         price: 499.99,
-        img: 'C:\\Users\\YCHB\\Desktop\\pimwoods\\pim-woods-site\\client\\src\\assets\\images\\products\\product-ex-1.jpg',
+        img: img1,
         place: 'Dining Room'
     },
     {
-        title: 'Cherry Wood Bookshelf',
-        description: 'A stylish bookshelf crafted from rich cherry wood. Features multiple shelves for ample storage and a classic design.',
+        title: 'Cherry Wood ',
+        description: 'A stylish bookshelf crafted from rich cherry wood. ',
         price: 349.99,
-        img: 'C:\\Users\\YCHB\\Desktop\\pimwoods\\pim-woods-site\\client\\src\\assets\\images\\products\\product-ex-2.jpg',
+        img:  img2  , 
         place: 'Living Room'
     },
     {
-        title: 'Walnut Coffee Table',
-        description: 'A sophisticated coffee table made from dark walnut wood. Its sleek design complements any living room decor.',
+        title: 'Coffee Table',
+        description: 'A sophisticated coffee table made from dark walnut wood.',
         price: 229.99,
-        img: 'C:\\Users\\YCHB\\Desktop\\pimwoods\\pim-woods-site\\client\\src\\assets\\images\\products\\product-ex-3.jpg',
+        img: img3 , 
         place: 'Living Room'
     },
     {
-        title: 'Maple Bed Frame',
-        description: 'A durable and beautifully finished bed frame constructed from maple wood. Designed to provide both comfort and style.',
+        title: 'Bed Frame',
+        description: 'A durable and beautifully finished bed frame constructed from maple wood. ',
         price: 599.99,
-        img: 'C:\\Users\\YCHB\\Desktop\\pimwoods\\pim-woods-site\\client\\src\\assets\\images\\products\\product-ex-4.jpg',
+        img: img4,
         place: 'Bedroom'
     }
 ];

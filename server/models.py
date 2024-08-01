@@ -22,20 +22,16 @@
 #     products = relationship("Product", back_populates="category")
     
 from sqlalchemy import Column, Integer, String, Float, ForeignKey, create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship, sessionmaker
-
-Base = declarative_base()
-
-class User(Base):
-    __tablename__ = "users"
+from database import Base
+# class User(Base):
+#     __tablename__ = "users"
     
-    id = Column(Integer, primary_key=True, index=True)
-    username = Column(String, unique=True, index=True, nullable=False)
-    email = Column(String, unique=True, index=True, nullable=False)
-    password_hash = Column(String, nullable=False)
+#     id = Column(Integer, primary_key=True, index=True)
+#     username = Column(String, unique=True, index=True, nullable=False)
+#     email = Column(String, unique=True, index=True, nullable=False)
+#     password_hash = Column(String, nullable=False)
     
-    favorite_products = relationship("Product", back_populates="favorited_by")
+    # favorite_products = relationship("Product", back_populates="favorited_by")
 
 class Category(Base):
     __tablename__ = "categories"
@@ -43,7 +39,7 @@ class Category(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, unique=True, index=True, nullable=False)
     
-    products = relationship("Product", back_populates="category")
+    # products = relationship("Product", back_populates="category")
 
 class Product(Base):
     __tablename__ = "products"
@@ -53,10 +49,9 @@ class Product(Base):
     description = Column(String, nullable=True)
     price = Column(Float, nullable=False)
     image_url = Column(String, nullable=True)
-    category_id = Column(Integer, ForeignKey("categories.id"), nullable=False)
-    favorited_by_id = Column(Integer, ForeignKey("users.id"), nullable=True)
-    
-    category = relationship("Category", back_populates="products")
+    # category_id = Column(Integer, ForeignKey("categories.id"), nullable=False)
+    # favorited_by_id = Column(Integer, ForeignKey("users.id"), nullable=True)
+    # category = relationship("Category", back_populates="products")
     
 """
 favorite_products: Optional relationship to track products favorited by the user

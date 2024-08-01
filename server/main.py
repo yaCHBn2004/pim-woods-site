@@ -1,17 +1,18 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, ValidationError
+import models
+from database import engine
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
+from routers.products import routerProduct
 from fastapi.middleware.cors import CORSMiddleware
+
+models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
-origins = [
-    "http://localhost",
-    "http://localhost:3000",
-    "http://localhost:5173",  # Add your frontend's origin here
-]
+origins = ['*']
 
 app.add_middleware(
     CORSMiddleware,
@@ -20,6 +21,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(routerProduct)
+
 
 class CommandInfo(BaseModel):
     username: str

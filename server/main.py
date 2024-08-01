@@ -9,7 +9,7 @@ from routers.products import routerProduct
 # main.py
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routes.submit_form import router as submit_form_router
+from routers.submit_form import router as submit_form_router
 
 models.Base.metadata.create_all(bind=engine)
 

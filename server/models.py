@@ -60,3 +60,5 @@ category_id: Foreign key linking the product to a category
 favorited_by_id: Foreign key linking the product to a user who favorited it (optional).
 category: A relationship that links this product to its category.
 favorited_by: A relationship that links this product to a user (optional)."""
+
+

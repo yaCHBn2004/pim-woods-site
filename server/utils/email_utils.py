@@ -2,7 +2,7 @@
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
-from models.command_info import CommandInfo
+from schemas import CommandInfo
 
 def send_email(command_info: CommandInfo):
     smtp_host = 'smtp.gmail.com'

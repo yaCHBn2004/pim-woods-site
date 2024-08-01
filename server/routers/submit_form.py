@@ -2,7 +2,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import ValidationError
 from utils.email_utils import send_email
-from models.command_info import CommandInfo
+from schemas import CommandInfo
 
 router = APIRouter()
 

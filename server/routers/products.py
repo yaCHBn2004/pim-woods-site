@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session
 import schemas
-from typing import List
+from typing import List, Optional
 from database import SessionLocal
 import crud, models
 
@@ -33,3 +33,19 @@ async def get_product_by_id(product_id: int, db: Session = Depends(get_db)):
 @routerProduct.post('/add_product')
 async def create_product(product:schemas.ProductCreate, db:Session=Depends(get_db)):
     return crud.create_product(db, product)
+
+@routerProduct.get("/search_product")
+async def get_product_by_search(search_term:str, db:Session=Depends(get_db)):
+    return crud.search_product(db, search_term)
+
+@routerProduct.get("/filter_product")
+async def filter_product(
+    price_range: Optional[str] = None,
+    category_id: Optional[int] = None,
+    category: Optional[str] = None,
+    collection: Optional[str] = None,
+    db: Session = Depends(get_db)):
+    return crud.filter_products(db, price_range=price_range,
+                                category=category,
+                                category_id=category_id,
+                                collection=collection)

@@ -30,5 +30,61 @@ export const woodenFurniture = [
         price: 599.99,
         img: img4,
         place: 'Bedroom'
+    },
+    {
+        title: 'Bed Frame',
+        description: 'A durable and beautifully finished bed frame constructed from maple wood. ',
+        price: 599.99,
+        img: img4,
+        place: 'Bedroom'
+    },
+    {
+        title: 'Bed Frame',
+        description: 'A durable and beautifully finished bed frame constructed from maple wood. ',
+        price: 599.99,
+        img: img4,
+        place: 'Bedroom'
+    },
+    {
+        title: 'Bed Frame',
+        description: 'A durable and beautifully finished bed frame constructed from maple wood. ',
+        price: 599.99,
+        img: img4,
+        place: 'Bedroom'
+    },
+    {
+        title: 'Bed Frame',
+        description: 'A durable and beautifully finished bed frame constructed from maple wood. ',
+        price: 599.99,
+        img: img4,
+        place: 'Bedroom'
+    },
+    {
+        title: 'Bed Frame',
+        description: 'A durable and beautifully finished bed frame constructed from maple wood. ',
+        price: 599.99,
+        img: img4,
+        place: 'Bedroom'
+    },
+    {
+        title: 'Bed Frame',
+        description: 'A durable and beautifully finished bed frame constructed from maple wood. ',
+        price: 599.99,
+        img: img4,
+        place: 'Bedroom'
+    },
+    {
+        title: 'Bed Frame',
+        description: 'A durable and beautifully finished bed frame constructed from maple wood. ',
+        price: 599.99,
+        img: img4,
+        place: 'Bedroom'
+    },
+    {
+        title: 'Bed Frame',
+        description: 'A durable and beautifully finished bed frame constructed from maple wood. ',
+        price: 599.99,
+        img: img4,
+        place: 'Bedroom'
     }
 ];

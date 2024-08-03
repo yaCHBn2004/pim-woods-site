@@ -1,4 +1,5 @@
-from utils import parse_price_range
+from utils.parse_price_range import parse_price_range
+#u forget .parse_price_range in the import
 from sqlalchemy.orm import Session
 from typing import Optional
 from models import Product

@@ -1,6 +1,7 @@
 import React from 'react'
 import Filters from '../../components/Filters'
 import Products from '../../components/Products'
+import SearchBar from '../../components/SearchBar'
 
 const ProductsMain = () => {
   return (
@@ -8,7 +9,11 @@ const ProductsMain = () => {
       <h1 className='font-bold text-6xl '>Our Products</h1>
       <section className='flex'>
         <Filters />
+        <div className=''>
+        <SearchBar/>
         <Products />
+        </div>
+        
       </section>
     </div>
   )
